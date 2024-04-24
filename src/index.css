@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "Frankuter";
+  src: url("../fonts/Frankuter.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  position: fixed;
+  width: 0.4em;
+  height: 0.5em;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #f1192f;
+  border-radius: 1em;
+}
+
+*::-webkit-scrollbar-thumb:vertical {
+  height: 1vw;
+}
+
+:root {
+  --body-black: #000000;
+  --body-yeloow: #feb901;
+  --body-white: #f5f5f5;
+  --body-light: #fffbfb;
+  --body-gray: #2f2f2f;
+  --body-red: #f1192f;
+  --body-blueDark: #121921;
+  --text-color-black: #0b0b0b;
+  --text-color-grayLight: #c3c2c2cc;
+  --text-color-white: #ffffff;
+  --text-color-gray: #333;
+  --text-color-blue: #0e43ac;
+  --text-color-red: #f1192f;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+  min-width: 360px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: var(--body-white);
+  letter-spacing: 0.1px;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+li,
+:link {
+  list-style: none;
+  padding-left: 0;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+input {
+  outline: none;
+  font-family: inherit;
+}
+
+button {
+  border: none;
+  padding: 0;
+}
